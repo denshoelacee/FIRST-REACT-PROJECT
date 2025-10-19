@@ -9,9 +9,9 @@ function Projects() {
   const [direction, setDirection] = useState(0);
 
   const nextProject = () =>
-    setCurrentIndex((prev) => (prev + 1) % projects.length);
+    setCurrentIndex((prev) => (prev + 1) % myproject.length);
   const prevProject = () =>
-    setCurrentIndex((prev) => (prev === 0 ? projects.length - 1 : prev - 1));
+    setCurrentIndex((prev) => (prev === 0 ? myproject.length - 1 : prev - 1));
 
   const handleNext = () => {
     setDirection(1);
