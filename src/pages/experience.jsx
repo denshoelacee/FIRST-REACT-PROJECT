@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaTools } from "react-icons/fa";
-import { experiences } from "../js/experience";
+import { myexperiences } from "../js/experience";
 
-function Experiences() {
+function experiences() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -34,7 +34,7 @@ function Experiences() {
           />
 
           {/* Timeline Items */}
-          {experiences.map((exp, index) => {
+          {myexperiences.map((exp, index) => {
             const isLeft = index % 2 === 0;
 
             const isHovered = hoveredIndex === index;
@@ -149,4 +149,4 @@ function Experiences() {
   );
 }
 
-export default Experiences;
+export default experiences;

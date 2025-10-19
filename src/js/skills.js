@@ -17,7 +17,7 @@ import figma from "./../assets/icons/figma.svg";
 import vscode from "./../assets/icons/vsc.svg";
 import github from "./../assets/icons/github.svg";
 import code from "./../assets/icons/code.svg";
-export const skills = [
+export const skill = [
     {
       title: "Frontend Development",
       skills: [

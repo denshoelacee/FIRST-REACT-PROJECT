@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import Home from "../pages/home";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Home from "../pages/home";
 import Projects from "../pages/projects";
-import Experiences from "../pages/experiences";
+import Experiences from "../pages/experience";
 import Skills from "../pages/skills";
-import Contacts from "../pages/contacts";
+import Contacts from "../pages/contact";
 
 function App() {
   useEffect(() => {

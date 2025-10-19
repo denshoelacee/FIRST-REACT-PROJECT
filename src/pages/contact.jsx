@@ -4,7 +4,7 @@ import {FaPaperPlane} from "react-icons/fa";
 import PrimaryButton from "../components/buttons/primarybutton";
 import emailjs from "emailjs-com";
 
-function Contacts() {
+function contacts() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -12,7 +12,7 @@ function Contacts() {
   });
 
   const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false); // ✅ Added loading state
+  const [loading, setLoading] = useState(false); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -188,4 +188,4 @@ function Contacts() {
   );
 }
 
-export default Contacts;
+export default contacts;

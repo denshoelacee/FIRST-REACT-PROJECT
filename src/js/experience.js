@@ -1,4 +1,4 @@
-  export const experiences = [
+  export const myexperiences = [
     {
       jobTitle: "Frontend Developer",
       date: "Jan 2023 - Dec 2023",

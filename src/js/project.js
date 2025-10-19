@@ -10,7 +10,7 @@ import javascript from "./../assets/icons/js.svg";
 import typescript from "./../assets/icons/typescript.svg";
 import echarts from "./../assets/icons/echarts.svg";
 
-export const projects = [
+export const project = [
   {
     title: "Supply Chain Management System",
     image: imageme,

@@ -9,7 +9,7 @@ import image2 from './../assets/images/image2.png'
 
 
 
-function Home() {
+function home() {
     return (
         <>
             <div className="flex flex-col md:flex-row h-full text-white overflow-hidden align-center justify-center py-15">
@@ -71,4 +71,4 @@ function Home() {
     )
 }
 
-export default Home
+export default home

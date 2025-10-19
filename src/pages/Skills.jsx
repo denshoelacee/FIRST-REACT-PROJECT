@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { skills as skillCategories } from "../js/skills";
+import { skill as skillCategories } from "../js/skills";
 
-function Skills() {
+function skills() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
@@ -92,4 +92,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default skills;
