@@ -1,6 +1,5 @@
 import { useEffect } from "react";
-import Header from "../components/Header";
-import Home from "../pages/home";
+import Home from "../pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Project from "../pages/project";
