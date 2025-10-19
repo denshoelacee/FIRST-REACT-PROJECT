@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import {FaPaperPlane} from "react-icons/fa";
-import PrimaryButton from "../components/buttons/primarybutton";
+import PrimaryButton from "../components/buttons/PrimaryButton";
 import emailjs from "emailjs-com";
 
 function Contact() {

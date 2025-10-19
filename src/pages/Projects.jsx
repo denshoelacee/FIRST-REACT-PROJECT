@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaChevronCircleRight, FaChevronCircleLeft, FaCode } from "react-icons/fa";
-import PrimaryButton from "../components/buttons/primarybutton";
+import PrimaryButton from "../components/buttons/PrimaryButton";
 import { myproject } from "../js/myproject"; 
 function Projects() {
 

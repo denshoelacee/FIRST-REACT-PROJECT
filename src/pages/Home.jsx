@@ -1,6 +1,6 @@
 
 
-import PrimaryButton from '../components/buttons/primarybutton'
+import PrimaryButton from '../components/buttons/PrimaryButton'
 import SecondaryButton from '../components/buttons/SecondaryButton'
 import Header from '../components/Header'
 import SocialLinks from '../components/SocialLinks';
