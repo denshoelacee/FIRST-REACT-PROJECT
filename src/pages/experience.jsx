@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaTools } from "react-icons/fa";
 import { experiences } from "../js/experience";
 
-function Experience() {
+function Experiences() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -149,4 +149,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Experiences;

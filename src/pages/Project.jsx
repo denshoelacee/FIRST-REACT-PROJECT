@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaChevronCircleRight, FaChevronCircleLeft, FaCode } from "react-icons/fa";
 import PrimaryButton from "../components/buttons/primarybutton";
-
 import { projects } from "../js/project"; 
-function Project() {
+function Projects() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
@@ -170,4 +169,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Projects;
