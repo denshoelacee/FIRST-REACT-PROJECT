@@ -3,9 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
-import Experiences from "../pages/Experience";
+import Experiences from "../pages/experience";
 import Skills from "../pages/Skills";
-import Contacts from "../pages/Contact";
+import Contacts from "../pages/contact";
 
 function App() {
   useEffect(() => {
