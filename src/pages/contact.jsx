@@ -4,7 +4,7 @@ import {FaPaperPlane} from "react-icons/fa";
 import PrimaryButton from "../components/buttons/primarybutton";
 import emailjs from "emailjs-com";
 
-function contacts() {
+function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -188,4 +188,4 @@ function contacts() {
   );
 }
 
-export default contacts;
+export default Contact;

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaChevronCircleRight, FaChevronCircleLeft, FaCode } from "react-icons/fa";
 import PrimaryButton from "../components/buttons/primarybutton";
-import { project } from "../js/project"; 
-function projects() {
+import { myproject } from "../js/myproject"; 
+function Projects() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
@@ -37,7 +37,7 @@ function projects() {
     }),
   };
 
-  const currentProject = project[currentIndex];
+  const currentProject = myproject[currentIndex];
 
   return (
     <div id="projects" className="text-white px-6 overflow-hidden h-full">
@@ -155,7 +155,7 @@ function projects() {
 
         {/*  Dots Indicator Always on Top */}
         <div className="flex gap-2 py-14 relative z-20">
-          {project.map((_, i) => (
+          {myproject.map((_, i) => (
             <div
               key={i}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
@@ -169,4 +169,4 @@ function projects() {
   );
 }
 
-export default projects;
+export default Projects;

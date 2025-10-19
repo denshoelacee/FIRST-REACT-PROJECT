@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaTools } from "react-icons/fa";
-import { myexperiences } from "../js/experience";
+import { myexperiences } from "../js/myexperience";
 
-function experiences() {
+function Experience() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -149,4 +149,4 @@ function experiences() {
   );
 }
 
-export default experiences;
+export default Experience;
