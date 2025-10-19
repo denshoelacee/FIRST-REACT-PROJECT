@@ -12,25 +12,30 @@ import image2 from './../assets/images/image2.png'
 function Home() {
     return (
         <>
-        <div className="py-15">
-                <div className="flex flex-col md:flex-row h-full text-white overflow-hidden align-center justify-center">
+            <div className="flex flex-col md:flex-row h-full text-white overflow-hidden align-center justify-center py-15">
                 {/* Image */}
                 <div data-aos="zoom-in" className="w-full md:w-1/2 flex justify-center items-center p-7">
-                    <div className="h-64 w-64 md:h-92 md:w-92 rounded-full overflow-hidden shadow-lg group relative">
-                    {/*  Image */}
-                    <img
-                        src={imageme}
-                        alt="Deniel Ybañez"
-                        className="w-full h-full object-cover transition-opacity duration-500 group-hover:opacity-0"
-                    />
-                    <img
-                        src={image2} 
-                        alt="Deniel Ybañez Hover"
-                        className="w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-500 opacity-0 group-hover:opacity-100"
-                    />
+                    <div className="relative h-64 w-64 md:h-92 md:w-92 flex justify-center items-center">
+                        
+                        <div className="absolute inset-0 fire-bg rounded-full"></div>
+                        
+                        {/*  Image container */}
+                        <div className="h-64 w-64 md:h-92 md:w-92 rounded-full overflow-hidden group relative">
+                        <img
+                            src={imageme}
+                            alt="Deniel Ybañez"
+                            className="w-full h-full object-cover transition-opacity duration-500 group-hover:opacity-0"
+                        />
+                        <img
+                            src={image2}
+                            alt="Deniel Ybañez Hover"
+                            className="w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-500 opacity-0 group-hover:opacity-100"
+                        />
+                        </div>
+
+                    </div>
                     </div>
 
-                </div>
                 {/* Personal Information*/}
                 <div data-aos="fade-left" className="w-full md:w-1/2 flex items-center p-7 ">
                     <div className="space-y-6 text-center md:text-left">
@@ -62,7 +67,6 @@ function Home() {
                 </div>
             </div>
             <Header/>
-        </div>
         </>
     )
 }

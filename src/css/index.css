@@ -3,3 +3,14 @@ body,html {
   scroll-behavior: smooth;
 }
 
+.fire-bg {
+  background: radial-gradient(circle at 50% 60%, #10b068, #0ba159 40%, #0cd97d 70%);
+  filter: blur(40px);
+  z-index: 0;
+}
+
+.line-shadow{
+  background: radial-gradient(circle at 50% 60%, #10b068, #0ba159 40%, #0cd97d 70%);
+}
+
+

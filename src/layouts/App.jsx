@@ -4,6 +4,9 @@ import Home from "../pages/home";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Project from "../pages/project";
+import Experience from "../pages/experience";
+import Contact from "../pages/contact";
+import Skills from "../pages/Skills";
 
 function App() {
   useEffect(() => {
@@ -17,6 +20,9 @@ function App() {
       <div className="bg-[#070524]">
          <Home/>
          <Project/>
+         <Experience/>
+         <Skills/>
+         <Contact/>
       </div>
     </>
   );
