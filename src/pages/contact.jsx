@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaPaperPlane } from "react-icons/fa";
+import {FaPaperPlane} from "react-icons/fa";
 import PrimaryButton from "../components/buttons/primarybutton";
 import emailjs from "emailjs-com";
 
@@ -127,8 +127,8 @@ function Contact() {
           </div>
 
           {/* Submit Button */}
-          <div className="flex justify-center pt-4">
-            <PrimaryButton type="submit" disabled={loading}>
+          <div className="flex justify-center pt-4 ">
+            <PrimaryButton className="cursor-pointer" type="submit" disabled={loading}>
               {loading ? (
                 <div className="flex items-center gap-2">
                   <svg
@@ -168,7 +168,7 @@ function Contact() {
               animate={{ opacity: 1 }}
               className="text-center text-emerald-400 mt-4"
             >
-              ✅ Message sent successfully! I’ll get back to you soon.
+              Message sent successfully! I’ll get back to you soon.
             </motion.p>
           )}
         </motion.form>

@@ -28,7 +28,7 @@ function Skills() {
             <button
               key={index}
               onClick={() => setActiveTab(index)}
-              className={`relative pb-3 text-lg font-medium transition-all duration-300 ${
+              className={`cursor-pointer relative pb-3 text-lg font-medium transition-all duration-300 ${
                 activeTab === index
                   ? "text-emarald-500"
                   : "text-gray-400 hover:text-gray-200"

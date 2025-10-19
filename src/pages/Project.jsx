@@ -132,7 +132,7 @@ function Project() {
                   )}
                 </div>
 
-                <PrimaryButton href={currentProject.link}>
+                <PrimaryButton className="cursor-pointer" href={currentProject.link}>
                   View Project
                 </PrimaryButton>
               </div>
