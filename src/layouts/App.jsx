@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import Home from "../pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Project from "../pages/Projects";
-import Experience from "../pages/Experiences";
+import Projects from "../pages/Projects";
+import Experiences from "../pages/Experiences";
 import Skills from "../pages/Skills";
-import Contact from "../pages/Contacts";
+import Contacts from "../pages/Contacts";
 
 function App() {
   useEffect(() => {
@@ -18,10 +18,10 @@ function App() {
     <>
       <div className="bg-[#070524]">
          <Home/>
-         <Project/>
-         <Experience/>
+         <Projects/>
+         <Experiences/>
          <Skills/>
-         <Contact/>
+         <Contacts/>
       </div>
     </>
   );
