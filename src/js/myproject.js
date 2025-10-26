@@ -53,6 +53,26 @@ export const myproject = [
     link: "#",
   },
   {
+    title: "CTU Graduate Tracker",
+    image: imageme,
+    description: "A web-based platform for tracking graduates of CTU Danao Campus. it supports data entry, filtering, track graduates, employment status and has a dashboard for visualizing graduate statistics. also graduates can update their profiles,work history, and contact information.",
+    role: "Frontend Developer | UI/UX Designer",
+    techstack: {
+      frontend: [
+        { name: "HTML", icon: html },
+        { name: "CSS", icon: css },
+        { name: "Javascript", icon: javascript },
+        { name: "Tailwind CSS", icon: tailwindcss },
+        { name: "ECharts", icon: echarts },
+      ],
+      backend: [
+        { name: "Laravel", icon: laravel },
+        { name: "MySQL", icon: mysql },
+      ],
+    },
+    link: "#",
+  },
+  {
     title: "Barangay Information System",
     image: imageme,
     description: "A web-based platform for barangay information system, centralized barangay informations ",
@@ -72,5 +92,5 @@ export const myproject = [
     },
     link: "#",
   },
-
+  
 ];
